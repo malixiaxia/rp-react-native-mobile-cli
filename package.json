@@ -45,22 +45,13 @@
     "ios": "REACT_APP_ENV=test react-native run-ios --simulator \"iPhone 14 Pro Max\""
   },
   "dependencies": {
-    "@expo/vector-icons": "^13.0.0",
     "@react-native-async-storage/async-storage": "^1.17.12",
     "@sentry/react-native": "^4.15.2",
     "compare-versions": "^6.0.0-rc.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.6",
-    "react-native-bit-swiper": "^1.1.8",
-    "react-native-drawer": "^2.5.1",
-    "react-native-ezswiper": "^1.3.0",
-    "react-native-marquee-ab": "^1.2.6",
-    "react-native-reanimated-carousel": "^3.3.2",
-    "react-native-swiper": "^1.6.0",
-    "react-native-tabs": "^1.0.9",
-    "react-native-web": "0.17.7",
-    "react-slick": "^0.29.0"
+    "react-native-web": "0.17.7"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
