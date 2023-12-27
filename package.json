@@ -1,0 +1,93 @@
+{
+  "name": "rp-react-native-mobile-cli",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node toolsDev.js &  REACT_APP_ENV=debug react-native start",
+    "web": "react-scripts start",
+    "build:ios:remind:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/remind/entry.js --platform ios --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/remind.ios.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:ios:remind:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/remind/entry.js --platform ios --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/remind.ios.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:ios:remind:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/remind/entry.js --platform ios --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/remind.ios.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:android:remind:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/remind/entry.js  --platform android --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/remind.android.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:android:remind:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/remind/entry.js --platform android --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/remind.android.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:android:remind:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/remind/entry.js --platform android --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/remind.android.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:ios:mine:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/mine/entry.js --platform ios --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/mine.ios.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:ios:mine:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/mine/entry.js --platform ios --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/mine.ios.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:ios:mine:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/mine/entry.js --platform ios --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/mine.ios.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:android:mine:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/mine/entry.js  --platform android --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/mine.android.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:android:mine:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/mine/entry.js --platform android --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/mine.android.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:android:mine:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/mine/entry.js --platform android --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/mine.android.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:ios:more:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/more/entry.js --platform ios --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/more.ios.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:ios:more:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/more/entry.js --platform ios --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/more.ios.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:ios:more:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/more/entry.js --platform ios --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/more.ios.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:android:more:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/more/entry.js  --platform android --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/more.android.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:android:more:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/more/entry.js --platform android --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/more.android.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:android:more:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/more/entry.js --platform android --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/more.android.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:ios:business:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/business/entry.js --platform ios --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/business.ios.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:ios:business:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/business/entry.js --platform ios --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/business.ios.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:ios:business:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/business/entry.js --platform ios --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/business.ios.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:android:business:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/business/entry.js  --platform android --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/business.android.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:android:business:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/business/entry.js --platform android --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/business.android.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:android:business:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/business/entry.js --platform android --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/business.android.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:ios:service:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/service/entry.js --platform ios --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/service.ios.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:ios:service:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/service/entry.js --platform ios --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/service.ios.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:ios:service:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/service/entry.js --platform ios --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/service.ios.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:android:service:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/service/entry.js  --platform android --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/service.android.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:android:service:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/service/entry.js --platform android --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/service.android.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:android:service:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/service/entry.js --platform android --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/service.android.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:ios:hotActivity:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/hotActivity/entry.js --platform ios --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/hotActivity.ios.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:ios:hotActivity:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/hotActivity/entry.js --platform ios --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/hotActivity.ios.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:ios:hotActivity:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/hotActivity/entry.js --platform ios --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/hotActivity.ios.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "build:android:hotActivity:debug": "REACT_APP_ENV=debug react-native bundle --entry-file src/pages/hotActivity/entry.js  --platform android --dev false --bundle-output target/debug/ruubypay-reactnative-yitongxing/pages/hotActivity.android.js --assets-dest target/debug/ruubypay-reactnative-yitongxing/",
+    "build:android:hotActivity:test": "REACT_APP_ENV=test react-native bundle --entry-file src/pages/hotActivity/entry.js --platform android --dev false --bundle-output target/test/ruubypay-reactnative-yitongxing/pages/hotActivity.android.js --assets-dest target/test/ruubypay-reactnative-yitongxing/",
+    "build:android:hotActivity:release": "REACT_APP_ENV=release react-native bundle --entry-file src/pages/hotActivity/entry.js --platform android --dev false --bundle-output target/release/ruubypay-reactnative-yitongxing/pages/hotActivity.android.js --assets-dest target/release/ruubypay-reactnative-yitongxing/",
+    "android": "react-native run-android",
+    "ios": "REACT_APP_ENV=test react-native run-ios --simulator \"iPhone 14 Pro Max\""
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "^1.17.12",
+    "@sentry/react-native": "^4.15.2",
+    "compare-versions": "^6.0.0-rc.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.68.6",
+    "react-native-bit-swiper": "^1.1.8",
+    "react-native-drawer": "^2.5.1",
+    "react-native-ezswiper": "^1.3.0",
+    "react-native-marquee-ab": "^1.2.6",
+    "react-native-reanimated-carousel": "^3.3.2",
+    "react-native-swiper": "^1.6.0",
+    "react-native-tabs": "^1.0.9",
+    "react-native-web": "0.17.7",
+    "react-slick": "^0.29.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/runtime": "^7.21.0",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "babel-jest": "^29.5.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "eslint": "^8.36.0",
+    "jest": "^29.5.0",
+    "metro-react-native-babel-preset": "^0.76.0",
+    "react-scripts": "^5.0.1",
+    "react-test-renderer": "17.0.2",
+    "RNBundleUrlsTOQrCodeView": "^1.0.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
