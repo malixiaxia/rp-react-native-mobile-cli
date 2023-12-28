@@ -1,3 +1,10 @@
+/**
+ * @author <malixia@ruubypay.com>
+ * @date 2023-12-28 14:52:22
+ * @description pages demo
+ * @module
+ * @return
+ */
 import React, {Component} from 'react';
 import {
     Image,
@@ -5,6 +12,7 @@ import {
     View,
 } from 'react-native';
 import {RPStyleSheet, scaleHeight, scaleSize} from '../../utils/ScreenUtil.js'
+import Hello from '../../components/home/Hello'
 const  Logo = 'https://static.ruubypay.com/ReactNative/images/react-native-logo.jpeg'
 class App extends Component {
     render() {
@@ -20,9 +28,7 @@ class App extends Component {
                 <Text style={styles.contentName}>
                     React Native
                 </Text>
-                <Text style={styles.content}>
-                    从这里开启你的代码之旅吧!!!
-                </Text>
+                <Hello />
             </View>
         );
     }
@@ -41,9 +47,6 @@ const styles = RPStyleSheet.create({
         fontSize:80,
         marginBottom:60,
         marginTop:60
-    },
-    content:{
-        fontSize:40,
     },
 
     imgBox:{
