@@ -71,17 +71,6 @@ export const getLocation = async () => {
     }).catch(() => (null));
 }
 
-
-/** 获取cityCode信息 **/
-let cityCode = BEIJING_CITY_CODE;
-export const getCityCode = async () => {
-    return await RPJSBridge.getCurrentCity().then(res => {
-        cityCode = res.cityCode;
-        return cityCode;
-    }).catch(() => (BEIJING_CITY_CODE));
-}
-
-
 /** 转换首字符大小写 **/
 export function titleCase(str) {
     if (!Boolean(str)) return str;
