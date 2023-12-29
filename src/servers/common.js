@@ -77,28 +77,6 @@ export const getADContentAPI = async (page,{placeIds,stationName,deviceLocation}
    })
 }
 
-
-/** 请求map json文件 **/
-let maph5Json= null
-export const maph5JsonAPI = async () => {
-    try {
-        if (maph5Json != null){
-            return maph5Json;
-        }
-        maph5Json = await request({
-            url:API.maph5Json,
-            method: "get",
-        },true);
-
-        return maph5Json;
-    }catch (e) {
-        return null;
-    }
-
-}
-
-
-
 /** 请求IOS审核版本 json文件 **/
 let IOSiSaudit = null;
 export const getIOSauditJSON = async () => {

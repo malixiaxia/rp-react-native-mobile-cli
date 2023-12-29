@@ -1,5 +1,4 @@
 import {NativeModules, Platform} from 'react-native';
-import {yikongAD} from "./yikongAD"
 import {requestReportAdvert} from '../servers/public'
 
 export const RNSensorsAnalyticsModule = NativeModules.RNSensorsAnalyticsModule;

@@ -6,7 +6,6 @@
  * @return
  */
 import RPJSBridge from "./RPJSBridge";
-import {BEIJING_CITY_CODE} from "../consts/cityCode";
 import {compareVersions} from "compare-versions";
 import {DeviceEventEmitter, NativeEventEmitter, NativeModules, Platform, Text} from "react-native";
 
