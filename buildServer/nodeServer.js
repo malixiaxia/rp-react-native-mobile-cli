@@ -17,13 +17,12 @@ const bundleUrl = [
     "https://static-ft.ruubypay.com",
     "https://static.ruubypay.com",
 ]
+/**
+ *  /pages下没添加一个目录名，需要您手动添加fileNames
+ *
+ * **/
 const fileNames = [
-    "remind",
-    "mine",
-    // 'more',
-    'service',
-    'business',
-    'hotActivity'
+    "home",
 ]
 for (const i in baseFileurl) {
     let fileData = []
