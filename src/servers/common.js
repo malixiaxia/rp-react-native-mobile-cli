@@ -12,7 +12,7 @@ import {request} from "@/utils/Request.js";
 
 import {_storeData} from "@/utils/AsyncStorage.js";
 import API from "./api"
-import {getCityCode, getPackADParam, getUserId,getCurrentVersion} from "@/utils/utils"
+import { getPackADParam, getUserId,getCurrentVersion} from "@/utils/utils"
 import {Platform} from 'react-native';
 /**
  * 广告获取内容
@@ -20,7 +20,7 @@ import {Platform} from 'react-native';
 export const getADContentAPI = async (page,{placeIds,stationName,deviceLocation}) => {
     const adParams = await getPackADParam();
     const userId = await getUserId();
-    const cityCode = await getCityCode();
+    const cityCode = "1101"; //默认为北京
    return request({
         // url:`${API_URL}/Advert/gain`,
         url:API.gain,
