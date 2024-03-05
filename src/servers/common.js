@@ -8,11 +8,11 @@
 
 
 
-import {request} from "../utils/Request.js";
+import {request} from "@/utils/Request.js";
 
-import {_storeData} from "../utils/AsyncStorage.js";
+import {_storeData} from "@/utils/AsyncStorage.js";
 import API from "./api"
-import {getCityCode, getPackADParam, getUserId,getCurrentVersion} from "../utils/utils"
+import {getCityCode, getPackADParam, getUserId,getCurrentVersion} from "@/utils/utils"
 import {Platform} from 'react-native';
 /**
  * 广告获取内容

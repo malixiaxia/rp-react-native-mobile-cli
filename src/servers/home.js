@@ -5,7 +5,7 @@
  * @module
  * @return
  */
-import {request} from "../utils/Request.js";
+import {request} from "@/utils/Request.js";
 import API from "./api"
 export const demo = async (data) => {
     //获取

@@ -1,5 +1,5 @@
 import {NativeModules, Platform} from 'react-native';
-import {requestReportAdvert} from '../servers/public'
+import {requestReportAdvert} from '@/servers/public'
 
 export const RNSensorsAnalyticsModule = NativeModules.RNSensorsAnalyticsModule;
 

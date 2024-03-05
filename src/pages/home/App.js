@@ -11,8 +11,8 @@ import {
     Text,
     View,
 } from 'react-native';
-import {RPStyleSheet, scaleHeight, scaleSize} from '../../utils/ScreenUtil.js'
-import Hello from '../../components/home/Hello'
+import {RPStyleSheet, scaleHeight, scaleSize} from '@/utils/ScreenUtil.js'
+import Hello from '@/components/home/Hello'
 const  Logo = 'https://static.ruubypay.com/ReactNative/images/react-native-logo.jpeg'
 class App extends Component {
     render() {

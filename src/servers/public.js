@@ -5,7 +5,7 @@
  * @param
  * @return
  */
-import {request,fetchRequest} from "../utils/Request.js";
+import {request,fetchRequest} from "@/utils/Request.js";
 import API from "./api"
 
 //上报CPM
