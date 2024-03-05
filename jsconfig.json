@@ -6,8 +6,9 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "paths": {
-      "@src/*": ["src/*"],
-      "@utils/": ["src/utils/"]
+      "@/*": [
+        "src/*"
+      ]
     },
     "target": "ES6",
     "module": "commonjs"

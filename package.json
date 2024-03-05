@@ -18,7 +18,9 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.12",
+    "babel-plugin-module-resolver": "^5.0.0",
     "compare-versions": "^6.0.0-rc.1",
+    "fb-watchman": "^2.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.6",
